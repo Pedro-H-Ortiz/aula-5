@@ -1,0 +1,44 @@
+/*
+* primeiro programa js 
+* pedro ortiz 
+*/
+console.log("olá mundo!");
+//prompt("qual é o seu nome?");
+const VariavelA = 100; 
+const VariavelB = VariavelA + 50; 
+console.log(VariavelB);
+console.log (VariavelA); 
+const VariavelC = VariavelA / VariavelB;
+console.log(VariavelC);
+//variavel let 
+let numero = 5; 
+console.log(numero);
+numero = 120 + 5;
+console.log(numero);
+//concatenar texto
+/*let nome = "Pedro"; 
+let sobreNome = "Ortiz";
+let idade = 17;
+console.log("ola", nome, sobreNome, "voce tem", idade, "anos");*/
+
+const variavelFalsa = false;
+const variavelVerdadeira = true;
+console.log("variavel falsa: " + variavelFalsa);
+console.log("variavel verdadeira: " + variavelVerdadeira);
+
+//exercicio 1
+
+let nome = "Pedro";
+let sobrenome = "Ortiz";
+let idade = 17;
+console.log("sou estudante do parque na manha e a tarde do secac", "meu nome é", nome, sobrenome, "e tenho");
+
+prompt("qual seu nome?");
+prompt("qual sua idade?");
+
+let usuarioNome = ("qual seu nome?");
+let usuarioIdade = ("qual sua idade?");
+console.log(typeof usuarioNome);
+console.log(typeof usuarioIdade);
+
+
